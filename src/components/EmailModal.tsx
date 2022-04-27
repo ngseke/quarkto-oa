@@ -11,7 +11,7 @@ export default function EmailModal ({ onClose }: EmailModalProps) {
   const [code, setCode] = useState('００００００')
 
   return (
-    <Portal node={document && document.getElementById('body')}>
+    <Portal node={document?.getElementById('body')}>
       <div className="flex justify-center items-center fixed inset-0 bg-[#00000077]">
         <div className="
           w-[440px] pt-[30px] px-7 pb-5
