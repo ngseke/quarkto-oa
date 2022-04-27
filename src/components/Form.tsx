@@ -3,6 +3,7 @@ import Title from './Title'
 import Input from './Input'
 import InputLayout from './InputLayout'
 import Button from './Button'
+import EmailModalAndButton from './EmailModalAndButton'
 
 export default function Form () {
   return (
@@ -22,7 +23,7 @@ export default function Form () {
           />
           <InputLayout
             input={<Input label="信箱" value="UserName @gmail.com.tw" />}
-            button={<Button block>驗證信箱</Button>}
+            button={<EmailModalAndButton />}
           />
           <InputLayout
             input={<Input label="手機" placeholder="+886" />}
