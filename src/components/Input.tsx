@@ -3,12 +3,13 @@ import clsx from 'clsx'
 interface InputProps {
   value?: string,
   onChange? (value: string): void,
+  type?: string,
   placeholder?: string,
   label?: string,
   alignCenter?: boolean,
 }
 
-export default function Input ({ value, onChange, placeholder, alignCenter, label }: InputProps) {
+export default function Input ({ value, onChange, type, placeholder, alignCenter, label }: InputProps) {
   return (
     <label className="block">
       <div
@@ -16,6 +17,7 @@ export default function Input ({ value, onChange, placeholder, alignCenter, labe
       >{label}</div>
 
       <input
+        type={type}
         className={clsx(
           'w-full text-[16px] border-b-[1px] border-black bg-transparent px-[10px] py-2',
           { 'text-center': alignCenter }

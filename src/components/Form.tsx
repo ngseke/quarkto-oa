@@ -8,7 +8,7 @@ import { useState } from 'react'
 
 export default function Form () {
   const [userId, setUserId] = useState('accountname')
-  const [birthday, setBirthday] = useState('0000/00/00')
+  const [birthday, setBirthday] = useState('')
   const [email, setEmail] = useState('UserName@gmail.com.tw')
   const [phone, setPhone] = useState('')
 
@@ -25,7 +25,7 @@ export default function Form () {
             input={<Input label="帳號" value={userId} onChange={setUserId} />}
           />
           <InputLayout
-            input={<Input label="生日" value={birthday} onChange={setBirthday} />}
+            input={<Input type="date" label="生日" value={birthday} onChange={setBirthday} />}
           />
           <InputLayout
             input={<Input label="信箱" value={email} onChange={setEmail} />}
