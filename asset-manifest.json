@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "./static/css/main.5d05d411.css",
+    "main.js": "./static/js/main.44f7df9b.js",
+    "static/media/quarkto.svg": "./static/media/quarkto.697375f4a178d82817452927171338dc.svg",
+    "static/media/global.svg": "./static/media/global.ef619f1bd10a0c25192c22687aa206fe.svg",
+    "index.html": "./index.html",
+    "main.5d05d411.css.map": "./static/css/main.5d05d411.css.map",
+    "main.44f7df9b.js.map": "./static/js/main.44f7df9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d05d411.css",
+    "static/js/main.44f7df9b.js"
+  ]
+}
